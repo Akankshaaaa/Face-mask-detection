@@ -53,3 +53,42 @@ Then we make the following changes to ```face_mask.cfg``` :
 * At lines ```603```, ```689``` and ```776``` 
   - change ```filters``` to ```filters = 21```
 
+
+Before training the model, make sure you have all the files in the right locations
+```
+My Drive
+├── yolov3                    
+│   ├── images          
+│   ├── annotations         
+│   ├── xml_yolo_train            # training data
+│   ├── xml_yolo_test             # testing data
+│   ├── xml_to_yolo.ipynb         # converts xml files to yolo txt files
+│   └── mask_detecc_yolo.ipynb    # face mast detection model
+├── darknet                    
+│   ├── ...          
+│   ├── cfg         
+|   │   └── face_mask.cfg         
+│   ├── ...         
+│   ├── data         
+│   │   ├── train.txt             # contains absolute path of training data
+│   │   ├── test.txt              # contains absolute path of testing data
+│   │   ├── face_mask.names   
+│   │   └── face_mask.data
+│   └── backup                    # to save weights
+└── ...
+```
+
+
+### Accuracy
+The Mean Average Precision(mAP) achieved was **85.25%**
+
+
+### Testing
+The images and video for testing were from [Pexels.com](https://www.pexels.com/)
+
+![predictions](https://user-images.githubusercontent.com/35341758/117769052-d2e0ae80-b250-11eb-83f9-9c861448cedc.jpg)
+
+
+https://user-images.githubusercontent.com/35341758/117769084-daa05300-b250-11eb-9ffc-b755baae1256.mp4
+
+
