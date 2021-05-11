@@ -85,7 +85,7 @@ The Mean Average Precision(mAP) achieved was **85.25%**
 
 
 ### Testing
-The images and video for testing were from [Pexels.com](https://www.pexels.com/)
+The images and videos for testing were taken from [Pexels.com](https://www.pexels.com/)
 
 ![predictions](https://user-images.githubusercontent.com/35341758/117769052-d2e0ae80-b250-11eb-83f9-9c861448cedc.jpg)
 
