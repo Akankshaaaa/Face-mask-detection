@@ -81,6 +81,7 @@ My Drive
 
 ### Accuracy
 The Mean Average Precision(mAP) achieved was **85.25%**
+![Screenshot 2021-05-10 at 5 29 09 PM](https://user-images.githubusercontent.com/35341758/117770441-8a29f500-b252-11eb-9231-1c369a1b5751.png)
 
 
 ### Testing
