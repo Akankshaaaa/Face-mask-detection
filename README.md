@@ -63,7 +63,7 @@ My Drive
 │   ├── xml_yolo_train            # training data
 │   ├── xml_yolo_test             # testing data
 │   ├── xml_to_yolo.ipynb         # converts xml files to yolo txt files
-│   └── mask_detecc_yolo.ipynb    # face mast detection model
+│   └── mask_detecc_yolo.ipynb    # face mask detection model
 ├── darknet                    
 │   ├── ...          
 │   ├── cfg         
